@@ -10,12 +10,11 @@
             margin: 15px 0;
             width: 250px;
             height: 80px;
-            border-radius: 10px;
             background-color: #eee;
             text-align: center;
             line-height: 90px;
 			background: url(../images/logo.png) center top no-repeat;
-			display: block;
+			display: inline-block;
 			position: relative;
         }
         .main_page {
@@ -26,6 +25,18 @@
 			left: 0;
             text-decoration: none;
         }
+		.links {
+			width: 750px;
+			height: auto;
+			display: inline-block;
+			position: relative;
+			vertical-align: top;
+			margin-top: 20px;
+			text-align: right;
+		}
+			.links a {
+				display: block;
+			}
     #nav {
         width: 880px;
         height: 40px;

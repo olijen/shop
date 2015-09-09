@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<base href="/">
-    <title>Bootstrap 101 Template</title>
+    <title>New People eStore</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -27,13 +27,19 @@
                 <div class="logo">
                     <a href="main" class="main_page"></a>
                 </div>
+				<div class="links">
+					Breaking News:
+					<a href="http://live.ukrainianiphone.com/" target="_blank">Apple live presentation of iPhones 6S by UiP</a>
+					<a href="http://ukrainianiphone.com/2015/09/apple-store-close/" target="_blank">Apple Online Store is offline</a>
+					<a href="http://ukrainianiphone.com/2015/08/torrents-block-windows-10/" target="_blank">Torrents blocking Windows 10 users</a>
+				</div>
             </div>
             <nav id="nav">
                 <ul class="nav_list">
-                    <li class="list_item"><a href="#" class="li_link">Phones</a></li>
-                    <li class="list_item"><a href="#" class="li_link">Tablets</a></li>
-                    <li class="list_item"><a href="#" class="li_link">Laptops</a></li>
-                    <li class="list_item"><a href="#" class="li_link">Accessories</a></li>
+                    <li class="list_item"><a href="catalog/phones" class="li_link">Phones</a></li>
+                    <li class="list_item"><a href="catalog/tablets" class="li_link">Tablets</a></li>
+                    <li class="list_item"><a href="catalog/laptops" class="li_link">Laptops</a></li>
+                    <li class="list_item"><a href="catalog/accessories" class="li_link">Accessories</a></li>
                 </ul>
             </nav>
         </div>
@@ -46,19 +52,19 @@
 
                 <div id="footerMenu1">
                     <ul>
-                        <li><a href="#">Phones</a></li>
-                        <li><a href="#">Tablets</a></li>
-                        <li><a href="#">Laptops</a></li>
-                        <li><a href="#">Accessories</a></li>
+                        <li><a href="catalog/phones">Phones</a></li>
+                        <li><a href="catalog/tablets">Tablets</a></li>
+                        <li><a href="catalog/laptops">Laptops</a></li>
+                        <li><a href="catalog/accessories">Accessories</a></li>
                     </ul>
                 </div>
 
                 <div id="footerMenu2">
                     <ul>
-                        <li><a href="#">Phones</a></li>
-                        <li><a href="#">Tablets</a></li>
-                        <li><a href="#">Laptops</a></li>
-                        <li><a href="#">Accessories</a></li>
+                        <li><a href="catalog/phones">Phones</a></li>
+                        <li><a href="catalog/tablets">Tablets</a></li>
+                        <li><a href="catalog/laptops">Laptops</a></li>
+                        <li><a href="catalog/accessories">Accessories</a></li>
                     </ul>
                 </div>
 
@@ -76,5 +82,6 @@
     </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
