@@ -25,7 +25,33 @@
         <div class="content">
             <?php renderBlock($block, array('routes' => $routes)); ?>
         </div>
-        <div class="footer"></div>
+        <div class="footer">
+
+                <div id="footerLogo"></div>
+
+                <div id="footerMenu1">
+                    <ul>
+                        <li><a href="#">Phones</a></li>
+                        <li><a href="#">Tablets</a></li>
+                        <li><a href="#">Laptops</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </div>
+
+                <div id="footerMenu2">
+                    <ul>
+                        <li><a href="#">Phones</a></li>
+                        <li><a href="#">Tablets</a></li>
+                        <li><a href="#">Laptops</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </div>
+
+                <div id="footerCopyright">
+                    <p>Test Shop 2015</p>
+                </div>
+
+        </div>
     </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

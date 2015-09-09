@@ -1,0 +1,36 @@
+
+.footer {
+    width: 1024px;
+    border: 1px solid #E1090C;
+}
+
+.footer li{
+    list-style-type: none;
+}
+
+#footerLogo {
+    width: 230px;
+    height: 200px;
+    border: 1px solid #5219FF;
+}
+
+
+#footerMenu1 {
+    width: 200px;
+    border: 1px solid #5219FF;
+}
+
+#footerMenu2 {
+    width: 200px;
+    border: 1px solid #5219FF;
+}
+
+#footerCopyright {
+    width: 200px;
+    border: 1px solid #5219FF;
+    position: absolute;
+    float: right;
+}
+
+
+
