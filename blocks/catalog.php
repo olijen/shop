@@ -5,5 +5,5 @@
 ?>
 
 <div id="catalog">
-	Catalog here + <?php //echo $routers[3]; ?>
+	Catalog here + <?php echo $routes[3]; ?>
 </div>
