@@ -3,7 +3,7 @@
 ?>
 
 <div id="catalog">
-	Catalog here
+    <h2>Catalog: </h2>
 	<?php
 		if(
 			isset($routes[2]) && $routes[2] != "" && // if it's catalog
