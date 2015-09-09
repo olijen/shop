@@ -48,7 +48,9 @@
         </div>
         <div class="footer">
 
-                <div id="footerLogo"></div>
+                <div id="footerLogo">
+                    <a href="main" class="footer_main_page"></a>
+                </div>
 
                 <div id="footerMenu1">
                     <ul>
