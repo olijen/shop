@@ -5,6 +5,7 @@
 }
     .top_line {
         padding: 10px;
+		position: relative;
     }
         .logo {
             margin: 15px 0;
@@ -26,10 +27,11 @@
             text-decoration: none;
         }
 		.links {
-			width: 750px;
+			width: 300px;
+			right: 0;
 			height: auto;
 			display: inline-block;
-			position: relative;
+			position: absolute;
 			vertical-align: top;
 			margin-top: 20px;
 			text-align: right;
