@@ -2,7 +2,7 @@
 // Mini-card render
 
 require_once('db.php');
-$cat = $routes['3'];
+$cat = $routes['2'];
 //d($store['phones']);
 foreach ($store[$cat] as $r) { ?>
 	<div class="product mini">
