@@ -13,7 +13,7 @@ function d($t) {var_dump($t);}
 function renderBlock($tpl, $data = array())
 {
 	extract($data); //Превращаем массив в переменные по ключ-значение.
-	include($_SERVER['DOCUMENT_ROOT'] . '/shop/blocks/' . $tpl . '.php');//Подключаем файл из дирректории блоков.
+	include($_SERVER['DOCUMENT_ROOT'] . '/blocks/' . $tpl . '.php');//Подключаем файл из дирректории блоков.
 }
 
 $routes = explode('/', $_SERVER['REQUEST_URI']); //Получаем строку с URI и разбиваем на массив по слешу.
