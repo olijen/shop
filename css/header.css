@@ -2,11 +2,9 @@
     width: 1024px;
     height: 300px;
     margin: 0 auto;
-    outline: 1px solid red;
 }
     .top_line {
         padding: 10px;
-        outline: 1px solid blue;
     }
         .logo {
             margin: 15px 0;
@@ -29,7 +27,6 @@
             background-color: #ccc;
         }
     #nav {
-        outline: 1px solid black;
         width: 880px;
         height: 40px;
         margin: 0 auto;

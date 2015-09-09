@@ -24,15 +24,15 @@
         <div id="header">
             <div class="top_line">
                 <div class="logo">
-                    <a href="main" class="main_page">logo</a>
+                    <a href="main" class="main_page"></a>
                 </div>
             </div>
             <nav id="nav">
                 <ul class="nav_list">
-                    <li class="list_item"><a href="#" class="li_link">phones</a></li>
-                    <li class="list_item"><a href="#" class="li_link">Планшеты</a></li>
-                    <li class="list_item"><a href="#" class="li_link">Ноутбуки</a></li>
-                    <li class="list_item"><a href="#" class="li_link">Аксессуары</a></li>
+                    <li class="list_item"><a href="#" class="li_link">Phones</a></li>
+                    <li class="list_item"><a href="#" class="li_link">Tablets</a></li>
+                    <li class="list_item"><a href="#" class="li_link">Laptops</a></li>
+                    <li class="list_item"><a href="#" class="li_link">Accessories</a></li>
                 </ul>
             </nav>
         </div>
