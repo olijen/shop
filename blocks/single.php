@@ -12,3 +12,4 @@ $id = $routes['3'];
 		<div class="price">Price: <?php echo $store[$cat][$id]['price']; ?>$</div>
 		<a href="#">Buy</a>
 	</div>
+<h2>Reviews:</h2>

@@ -1,4 +1,4 @@
-
+<div class="cards">
 <?php
 // Mini-card render
 
@@ -10,7 +10,7 @@ $cat = $routes['2'];
 //d($store['phones']);
 foreach ($store[$cat] as $r) { ?>
 	<div class="product mini">
-		<a href="catalog/<?php echo $cat; ?>/<?php echo $r['id']; ?>"><div class="image"><img src="images/<?php echo $cat; ?>.jpg"></div></a>
+		<a href="catalog/<?php echo $cat; ?>/<?php echo $r['id']; ?>"><div class="image"><img src="images/<?php echo $cat; ?>.png"></div></a>
         <div class="raiting">
             <input type="radio">
             <input type="radio">
@@ -19,8 +19,10 @@ foreach ($store[$cat] as $r) { ?>
             <input type="radio">
         </div>
 		<div class="price">Price: <?php echo $r['price']; ?>$</div>
-        <a href="#">Buy</a>
+
+        <a href="#" class="buy">Buy</a>
 	</div>
 <?php
 }
 ?>
+</div>
