@@ -16,22 +16,30 @@
 #footerLogo {
     width: 230px;
     height: 200px;
+    margin: 5px;
+    padding: 0px;
     border: 1px solid #5219FF;
 }
 
 
 #footerMenu1 {
-    width: 200px;
+    width: 220px;
+    margin: 5px;
+    padding: 0px;
     border: 1px solid #5219FF;
 }
 
 #footerMenu2 {
-    width: 200px;
+    width: 220px;
+    margin: 5px;
+    padding: 0px;
     border: 1px solid #5219FF;
 }
 
 #footerCopyright {
-    width: 200px;
+    width: 220px;
+    margin: 5px;
+    padding: 0px;
     border: 1px solid #5219FF;
 }
 
