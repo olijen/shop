@@ -16,6 +16,9 @@
             line-height: 90px;
 			background: url(../images/logo.png) center top no-repeat;
         }
+        .logo:hover {
+            background-color: #cccccc;
+        }
         .main_page {
             display: block;
             width: auto;
