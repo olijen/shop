@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<base href="/">
     <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
@@ -21,7 +22,21 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="header"></div>
+        <div id="header">
+            <div class="top_line">
+                <div class="logo">
+                    <a href="main" class="main_page"></a>
+                </div>
+            </div>
+            <nav id="nav">
+                <ul class="nav_list">
+                    <li class="list_item"><a href="#" class="li_link">Phones</a></li>
+                    <li class="list_item"><a href="#" class="li_link">Tablets</a></li>
+                    <li class="list_item"><a href="#" class="li_link">Laptops</a></li>
+                    <li class="list_item"><a href="#" class="li_link">Accessories</a></li>
+                </ul>
+            </nav>
+        </div>
         <div class="content">
             <?php renderBlock($block, array('routes' => $routes)); ?>
         </div>
