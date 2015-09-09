@@ -3,6 +3,7 @@
     width: 1024px;
     border: 1px solid #E1090C;
     display: block;
+    margin: 0 auto;
 }
 
 .footer li{
@@ -11,6 +12,7 @@
 
 .footer div{
     float: left;
+
 }
 
 #footerLogo {
