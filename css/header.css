@@ -15,19 +15,16 @@
             text-align: center;
             line-height: 90px;
 			background: url(../images/logo.png) center top no-repeat;
-        }
-        .logo:hover {
-            background-color: #cccccc;
+			display: block;
+			position: relative;
         }
         .main_page {
-            display: block;
-            width: auto;
-            border-radius: 10px;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
             text-decoration: none;
-        }
-        .main_page:hover {
-            text-decoration: none;
-            background-color: #ccc;
         }
     #nav {
         width: 880px;
