@@ -5,30 +5,40 @@
 }
     .top_line {
         padding: 10px;
+		position: relative;
     }
         .logo {
             margin: 15px 0;
             width: 250px;
             height: 80px;
-            border-radius: 10px;
             background-color: #eee;
             text-align: center;
             line-height: 90px;
 			background: url(../images/logo.png) center top no-repeat;
-        }
-        .logo:hover {
-            background-color: #cccccc;
+			display: inline-block;
+			position: relative;
         }
         .main_page {
-            display: block;
-            width: auto;
-            border-radius: 10px;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
             text-decoration: none;
         }
-        .main_page:hover {
-            text-decoration: none;
-            background-color: #ccc;
-        }
+		.links {
+			width: 300px;
+			right: 0;
+			height: auto;
+			display: inline-block;
+			position: absolute;
+			vertical-align: top;
+			margin-top: 20px;
+			text-align: right;
+		}
+			.links a {
+				display: block;
+			}
     #nav {
         width: 880px;
         height: 40px;

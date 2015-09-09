@@ -1,9 +1,17 @@
 
 .footer {
     width: 1024px;
-    border: 1px solid #E1090C;
+    height: 105px;
     display: block;
     margin: 0 auto;
+    background-color: #EEEEEE;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.footer p{
+    margin: 0;
+    padding: 0;
 }
 
 .footer li{
@@ -12,38 +20,47 @@
 
 .footer div{
     float: left;
-
 }
 
 #footerLogo {
-    width: 230px;
-    height: 200px;
-    margin: 5px;
+    width: 80px;
+    height: 80px;
+    background-image: url("../images/logo2.png");
+    margin: 10px 5px 5px 135px;
     padding: 0px;
-    border: 1px solid #5219FF;
 }
-
 
 #footerMenu1 {
     width: 220px;
-    margin: 5px;
+    margin: 10px;
     padding: 0px;
-    border: 1px solid #5219FF;
 }
 
 #footerMenu2 {
     width: 220px;
-    margin: 5px;
+    margin: 10px;
     padding: 0px;
-    border: 1px solid #5219FF;
 }
+
+#footerContacts {
+    width: 220px;
+    margin: 10px;
+    padding: 0px;
+}
+
+    #footerContacts a{
+        margin: 0;
+        padding: 0;
+        text-decoration: underline;
+    }
 
 #footerCopyright {
     width: 220px;
     margin: 5px;
-    padding: 0px;
-    border: 1px solid #5219FF;
+    padding: 5px 5px;
 }
+
+
 
 
 
