@@ -68,8 +68,14 @@
                     </ul>
                 </div>
 
+            <div id="footerContacts">
+                <p>Tel.: 000-000-000<br />
+                E-mail:<a>Aaaaa@mail.ua</a>
+                </p>
+            </div>
+
                 <div id="footerCopyright">
-                    <p>Test Shop 2015</p>
+                    <p>© Test Shop 2015</p>
                 </div>
 
         </div>
