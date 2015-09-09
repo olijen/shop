@@ -10,12 +10,13 @@
     }
         .logo {
             margin: 15px 0;
-            width: 150px;
-            height: 90px;
+            width: 250px;
+            height: 80px;
             border-radius: 10px;
             background-color: #eee;
             text-align: center;
             line-height: 90px;
+			background: url(../images/logo.png) center top no-repeat;
         }
         .main_page {
             display: block;
