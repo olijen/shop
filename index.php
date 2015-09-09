@@ -20,3 +20,5 @@ $routes = explode('/', $_SERVER['REQUEST_URI']); //Получаем строку
 $block = $routes[2] ? $routes[2] : 'main';
 
 renderBlock('layout', array('block' => $block, 'routes' => $routes));
+
+?>

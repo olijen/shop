@@ -23,7 +23,7 @@
     <div class="wrapper">
         <div class="header"></div>
         <div class="content">
-            Lorem ipsum<?php renderBlock($block) ?>
+            <?php renderBlock($block, array('routes' => $routes)); ?>
         </div>
         <div class="footer"></div>
     </div>
