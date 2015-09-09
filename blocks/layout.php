@@ -24,7 +24,7 @@
         <div id="header">
             <div class="top_line">
                 <div class="logo">
-                    <a href="main" class="main_page">logo</a>
+                    <a href="main" class="main_page"></a>
                 </div>
             </div>
             <nav id="nav">
