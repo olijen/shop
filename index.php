@@ -17,6 +17,6 @@ function renderBlock($tpl, $data = array())
 }
 
 $routes = explode('/', $_SERVER['REQUEST_URI']); //Получаем строку с URI и разбиваем на массив по слешу.
-$block = $routes[2];
+$block = $routes[2] ? $routes[2] : 'main';
 
-renderBlock('layout', array('block' => $block));
+renderBlock('layout', array('block' => $block, 'routes' => $routes));

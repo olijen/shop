@@ -1,0 +1,4 @@
+<?php
+// Mini-card render
+
+?>
