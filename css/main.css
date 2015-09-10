@@ -23,19 +23,38 @@
             height: 150px;
             margin-bottom: 20px;
         }
-        .raiting {
+        .rating {
             margin-top: 10px;
             display: inline-block;
             width: 260px;
         }
-            .raiting input[type=radio] {
+            .rating input[type=radio] {
                 display: block;
                 float: left;
                 height: 30px;
                 width: 30px;
-                margin: 0 10px 20px;
+                margin: 0 10px 20px 0;
                 cursor: pointer;
             }
+            .rating input[type=radio]:before {
+                content: "";
+                float: left;
+                height: 30px;
+                width: 30px;
+                margin: 0 10px 20px 0;
+                background: #fff url("../images/star.png") no-repeat 0 0;
+                background-size: cover;
+            }
+            .rating input[type=radio].active:before {
+                content: "";
+                float: left;
+                height: 30px;
+                width: 30px;
+                margin: 0 10px 20px 0;
+                background: #fff url("../images/star.png") no-repeat 0 -31px;
+                background-size: cover;
+            }
+
         .price {
             float: left;
             font-size: 1.5em;
