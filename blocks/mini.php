@@ -6,6 +6,12 @@ require_once('protected/db.php');
 $cat = $routes['2'];
 ?>
 <h2>Catalog <?php echo $cat; ?>: </h2>
+Sort by price:
+<select class="sort">
+	<option value="1">Cheap to expensive</option>
+	<option value="2">Expensive to cheap</option>
+</select>
+<br>
 <?php
 //d($store['phones']);
 foreach ($store[$cat] as $r) { ?>

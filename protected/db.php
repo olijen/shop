@@ -30,7 +30,7 @@
 			"product_id" => 1,
 			"author" => "Demid Ganenko",
 			"date" => "10.09.2015",
-			"text" => "Awesome! I lite it so much!1111",
+			"text" => "Awesome! I love it so much!1111",
 			"rating" => 5
 		),
 		2 => array(

@@ -29,11 +29,11 @@
             width: 260px;
         }
             .rating input[type=radio] {
-                display: block;
+                display: inline-block;
                 float: left;
                 height: 30px;
                 width: 30px;
-                margin: 0 10px 20px 0;
+                margin: 0 2px 20px 0;
                 cursor: pointer;
             }
             .rating input[type=radio]:before {
@@ -41,17 +41,15 @@
                 float: left;
                 height: 30px;
                 width: 30px;
-                margin: 0 10px 20px 0;
                 background: #fff url("../images/star.png") no-repeat 0 0;
                 background-size: cover;
+				transition: all 0.3s;
             }
-            .rating input[type=radio].active:before {
+            .rating input[type=radio].active:before,
+			.rating input[type=radio].hover:before {
                 content: "";
                 float: left;
-                height: 30px;
-                width: 30px;
-                margin: 0 10px 20px 0;
-                background: #fff url("../images/star.png") no-repeat 0 -31px;
+                background-position: 0 -31px;
                 background-size: cover;
             }
 
@@ -117,3 +115,54 @@
         width: 90%;
         color: #337ab7;
     }
+
+.reviews {
+    margin: 10px 0;
+    padding: 0 15px;
+}
+
+    .review {
+        width: 40%;
+    }
+
+        .comment {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #EEEEEE;
+        }
+
+            .comment p{
+                margin: 0;
+                padding: 5px;
+                border: 1px solid #ddd;
+                background-color: #fff;
+            }
+
+            .comment h3{
+                margin: 0;
+                padding: 5px;
+            }
+
+            .comment .date {
+                width: 50%;
+                margin: 3px 0 0 0;
+                padding: 0;
+                color: #337ab7;
+            }
+
+            .comment .rate {
+                width: 50%;
+                margin: 3px 0 0 0;
+                padding: 0;
+                float: right;
+                text-align: right;
+                color: #337ab7;
+            }
+
+    .reviews h2{
+        border-bottom: 1px solid #ddd
+    }
+
