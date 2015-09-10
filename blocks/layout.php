@@ -28,10 +28,10 @@
                     <a href="main" class="main_page"></a>
                 </div>
 				<div class="links">
-					Breaking News:
-					<a href="http://live.ukrainianiphone.com/" target="_blank">Apple live presentation of iPhones 6S by UiP</a>
-					<a href="http://ukrainianiphone.com/2015/09/apple-store-close/" target="_blank">Apple Online Store is offline</a>
-					<a href="http://ukrainianiphone.com/2015/08/torrents-block-windows-10/" target="_blank">Torrents blocking Windows 10 users</a>
+					News:
+					<a href="#welcome" target="_blank">Welcome!</a>
+					<a href="#we-are-working-on-it" target="_blank">We are working on it</a>
+					<a href="#new-features" target="_blank">New features!</a>
 				</div>
             </div>
             <nav id="nav">
@@ -63,10 +63,10 @@
 
                 <div id="footerMenu2">
                     <ul>
-                        <li>Breaking News:</li>
-                        <li><a href="http://live.ukrainianiphone.com/" target="_blank">Apple live presentation of iPhones 6S by UiP</a></li>
-                        <li><a href="http://ukrainianiphone.com/2015/09/apple-store-close/" target="_blank">Apple Online Store is offline</a></li>
-                        <li><a href="http://ukrainianiphone.com/2015/08/torrents-block-windows-10/" target="_blank">Torrents blocking Windows 10 users</a></li>
+                        <li>News:</li>
+                        <li><a href="#welcome" target="_blank">Welcome!</a></li>
+                        <li><a href="#we-are-working-on-it" target="_blank">We are working on it</a></li>
+                        <li><a href="#new-features" target="_blank">New features!</a></li>
                     </ul>
                 </div>
 
