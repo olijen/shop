@@ -65,33 +65,35 @@
             <?php renderBlock($block, array('routes' => $routes)); ?>
         </div>
 
-        <footer id="footer" class="row">
-            <div class="col-sm-3 col-md-3">
-                <a href="main" class="footer_logo"></a>
-            </div>
-            <div class="col-sm-3 col-md-3">
-                <ul class="footer_nav hidden-xs">
-                    <li><a href="catalog/phones">Phones</a></li>
-                    <li><a href="catalog/tablets">Tablets</a></li>
-                    <li><a href="catalog/laptops">Laptops</a></li>
-                    <li><a href="catalog/accessories">Accessories</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-3 col-md-3">
-                <ul class="footer_news hidden-xs">
-                    <span>News:</span>
-                    <li><a href="#welcome" target="_blank">Welcome!</a></li>
-                    <li><a href="#we-are-working-on-it" target="_blank">We are working on it</a></li>
-                    <li><a href="#new-features" target="_blank">New features!</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-3 col-md-3">
-                <ul class="footer_contacts">
-                    <li>Tel.: 000-000-000</li>
-                    <li>E-mail: <a>info@newpeople.com</a></li>
-                </ul>
-                <div class="footer_copy ">
-                    <p>&copy; New People eStore | 2015</p>
+        <footer id="footer">
+            <div class="row">
+                <div class="col-sm-3 col-md-3">
+                    <a href="main" class="footer_logo"></a>
+                </div>
+                <div class="col-sm-3 col-md-3">
+                    <ul class="footer_nav hidden-xs">
+                        <li><a href="catalog/phones">Phones</a></li>
+                        <li><a href="catalog/tablets">Tablets</a></li>
+                        <li><a href="catalog/laptops">Laptops</a></li>
+                        <li><a href="catalog/accessories">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-md-3">
+                    <ul class="footer_news hidden-xs">
+                        <span>News:</span>
+                        <li><a href="#welcome" target="_blank">Welcome!</a></li>
+                        <li><a href="#we-are-working-on-it" target="_blank">We are working on it</a></li>
+                        <li><a href="#new-features" target="_blank">New features!</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-md-3">
+                    <ul class="footer_contacts">
+                        <li>Tel.: 000-000-000</li>
+                        <li>E-mail: <a>info@newpeople.com</a></li>
+                    </ul>
+                    <div class="footer_copy ">
+                        <p>&copy; New People eStore | 2015</p>
+                    </div>
                 </div>
             </div>
         </footer>

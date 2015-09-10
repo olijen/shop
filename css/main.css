@@ -1,7 +1,6 @@
-.content {
-    width: 1024px;
-    margin: auto;
-    padding: 0;
+#myCarousel img {
+    display: block;
+    width: 100%;
 }
     .mini {
         display: inline-block;
