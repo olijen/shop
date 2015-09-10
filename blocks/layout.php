@@ -27,7 +27,15 @@
                 <div class="logo col-xs-12 col-sm-6">
                     <a href="main" class="main_page"></a>
                 </div>
-                <div class="links col-xs-12 col-sm-6">
+                <div class="search col-xs-12 col-sm-3">
+                    <form action="search/" method="get">
+						<br>
+						<input type="text" name="search" placeholder="Type to search..." class="form-control col-xs-2">
+						<br>
+						<button type="submit" class="btn btn-info">Search</button>
+					</form>
+                </div>
+                <div class="links col-xs-12 col-sm-3">
                     News:
                     <a href="news/1">Welcome!</a>
                     <a href="news/2">We are working on it</a>
@@ -65,34 +73,36 @@
             <?php renderBlock($block, array('routes' => $routes)); ?>
         </div>
 
-        <footer id="footer" class="row">
-            <div class="col-sm-3">
-                <a href="main" class="footer_logo"></a>
-            </div>
-            <div class="col-sm-3">
-                <ul class="footer_nav hidden-xs">
-                    <li><a href="catalog/phones">Phones</a></li>
-                    <li><a href="catalog/tablets">Tablets</a></li>
-                    <li><a href="catalog/laptops">Laptops</a></li>
-                    <li><a href="catalog/accessories">Accessories</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <ul class="footer_news hidden-xs">
-                    <span>News:</span>
-                    <li><a href="news/1">Welcome!</a></li>
-                    <li><a href="news/2">We are working on it</a></li>
-                    <li><a href="news/3">New features!</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <ul class="footer_contacts">
-                    <li>Tel.: 000-000-000</li>
-                    <li>E-mail: <a>info@newpeople.com</a></li>
-                </ul>
-                <div class="footer_copy ">
-                    <p>&copy; New People eStore | 2015</p>
-                </div>
+        <footer id="footer">
+        	<div class="row">
+				<div class="col-sm-3">
+					<a href="main" class="footer_logo"></a>
+				</div>
+				<div class="col-sm-3">
+					<ul class="footer_nav hidden-xs">
+						<li><a href="catalog/phones">Phones</a></li>
+						<li><a href="catalog/tablets">Tablets</a></li>
+						<li><a href="catalog/laptops">Laptops</a></li>
+						<li><a href="catalog/accessories">Accessories</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<ul class="footer_news hidden-xs">
+						<span>News:</span>
+						<li><a href="news/1">Welcome!</a></li>
+						<li><a href="news/2">We are working on it</a></li>
+						<li><a href="news/3">New features!</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<ul class="footer_contacts">
+						<li>Tel.: 000-000-000</li>
+						<li>E-mail: <a>info@newpeople.com</a></li>
+					</ul>
+					<div class="footer_copy ">
+						<p>&copy; New People eStore | 2015</p>
+					</div>
+				</div>
             </div>
         </footer>
     </div>
