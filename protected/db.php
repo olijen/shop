@@ -10,15 +10,18 @@
 	$news = array(
 		1 => array(
 			"title" => "Welcome!",
-			"full" => "Welcome to our site! It's under construction now. We appologize for troubles."
+			"full" => "Welcome to our site! It's under construction now. We appologize for troubles.",
+			"date" => "09.09.2015"
 		),
 		2 => array(
-			"title" => "We !",
-			"full" => "Welcome to our site! It's under construction now. We appologize for troubles."
+			"title" => "We are working on it",
+			"full" => "Today we made styling, back-end and some front-end corrections on site. Hope you will like it!",
+			"date" => "09.09.2015"
 		),
 		3 => array(
-			"title" => "Welcome!"
-			"full" => "Welcome to our site! It's under construction now. We appologize for troubles."
+			"title" => "New features!",
+			"full" => "Today we planing to add new features and try to finish them at 6 p.m.",
+			"date" => "10.09.2015"
 		)
 	);
 
