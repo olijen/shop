@@ -58,6 +58,16 @@
             text-decoration: none;
             background-color: palevioletred;
         }
+.information p span {
+	font-weight: bold;
+}
+
+.information p {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+}
         
 .carousel-indicators li {
 	box-shadow: 0px 0px 5px #000;

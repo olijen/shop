@@ -50,7 +50,7 @@
         <div class="footer">
 
                 <div id="footerLogo">
-                    <a href="main" class="footer_main_page"></a>
+                    <a href="main" class="main_page"></a>
                 </div>
 
                 <div id="footerMenu1">
@@ -73,12 +73,12 @@
 
             <div id="footerContacts">
                 <p>Tel.: 000-000-000<br />
-                E-mail:<a>Aaaaa@mail.ua</a>
+                E-mail: <a>info@newpeople.com</a>
                 </p>
             </div>
 
                 <div id="footerCopyright">
-                    <p>© Test Shop 2015</p>
+                    <p>&copy; New People eStore | 2015</p>
                 </div>
 
         </div>

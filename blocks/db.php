@@ -14,7 +14,7 @@
 				'id' => $i
 			);
 			$new['id'] = $i;
-			$new['price'] = mt_rand(100, 600).'.'.mt_rand(0, 10).mt_rand(0, 10);
+			$new['price'] = mt_rand(100, 600).'.'.mt_rand(0, 9).mt_rand(0, 9);
 			$store[$k][$i] = $new;
 		}
 	}

@@ -18,7 +18,7 @@
 			display: inline-block;
 			position: relative;
         }
-        .main_page {
+        .main_page, .footer_main_page {
 			width: 100%;
 			height: 100%;
 			position: absolute;
