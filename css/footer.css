@@ -32,16 +32,26 @@
 }
 
 #footerMenu1 {
-    width: 220px;
+    width: 150px;
     margin: 10px;
     padding: 0px;
 }
 
+    #footerMenu1 ul{
+        margin: 0px;
+        padding: 0px;
+    }
+
 #footerMenu2 {
-    width: 220px;
+    width: 335px;
     margin: 10px;
     padding: 0px;
 }
+
+    #footerMenu2 ul{
+        margin: 0px;
+        padding: 0px;
+    }
 
 #footerContacts {
     width: 220px;
