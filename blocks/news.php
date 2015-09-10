@@ -4,7 +4,7 @@
 require_once('protected/db.php');
 ?>
 <div class="news_list">
-<h2>News:</h2>
+<h2>News</h2>
 <?php
 //d($store['phones']);
 foreach ($news as $r) { ?>
