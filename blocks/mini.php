@@ -12,11 +12,12 @@ Sort by price:
 	<option value="2">Expensive to cheap</option>
 </select>
 <br>
+	<div class="row">
 <?php
 //d($store['phones']);
 $counter = 1;
 foreach ($store[$cat] as $r) { ?>
-	<?php if($counter%3==1) { ?><div class="row"><?php } ?>
+	<?php /*if($counter%3==1) { ?><div class="row"><?php } */?>
 	<div class="product col-sm-4">
         <div class="thumbnail">
             <a href="catalog/<?php echo $cat; ?>/<?php echo $r['id']; ?>">
@@ -27,6 +28,13 @@ foreach ($store[$cat] as $r) { ?>
 
             <div class="caption">
                 <h3>Title product</h3>
+                <div class="rating">
+					<input type="radio">
+					<input type="radio">
+					<input type="radio">
+					<input type="radio">
+					<input type="radio">
+				</div>
                 <div class="price">Price: <?php echo $r['price']; ?>$</div>
                 <p>
                     <a href="#" class="btn btn-primary" role="button">BUY</a>
@@ -34,9 +42,10 @@ foreach ($store[$cat] as $r) { ?>
             </div>
         </div>
 	</div>
-	<?php if($counter%3==0) { ?></div><?php } ?>
+	<?php /*if($counter%3==0) { ?></div><?php } */?>
 <?php
 	$counter++;
 }
 ?>
+	</div>
 </div>

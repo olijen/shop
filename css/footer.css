@@ -14,7 +14,7 @@
         width: 90px;
         height: 80px;
         margin: auto;
-        background: #fff url("../images/logo.png") no-repeat;
+        background: url("../images/logo.png") no-repeat;
     }
 
 @media (max-width: 768px) {

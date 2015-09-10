@@ -30,13 +30,14 @@ $(function(){
 		})
 	});
 	
+	
 	// show stars on hover
 	$('.rating input[type="radio"]').hover(
 	function() {
 		var radio = $(this).parent().find('input[type="radio"]');
 		var current = radio.index(this);
 		
-		$(this).parent().find('input[type="radio"].active').removeAttr("class").attr("id", "active");
+		$(this).parent().find('input[type="radio"].active').removeAttr("class").attr("id", "active").prop("checked", false);
 		
 		for (var i = 0; i < radio.length; i++) {
 			if (i != current)
@@ -49,14 +50,15 @@ $(function(){
 		}
 	},
 	function() {
-		$(this).parent().find('input[type="radio"]').removeClass("hover");
+		$(this).parent().find('input[type="radio"].active').removeAttr("class").attr("id", "active");
+		$(this).parent().find('input[type="radio"]').removeClass("hover").prop("checked", false);
 		$(this).parent().find('input[type="radio"]#active').removeAttr("id").addClass("active").prop("checked", true);
 	});
 	
 	// sort products by price
 	function sortBy(toCheap) {
-	
-		var mylist = $('.cards');
+		
+		var mylist = $('.cards .row');
 		var listitems = mylist.children('.product').get();
 		listitems.sort(function(a, b) {
 			if(toCheap == "2")
@@ -65,7 +67,7 @@ $(function(){
 		})
 		$.each(listitems, function(idx, itm) { mylist.append(itm); });
 		
-		}
+	}
 
 		$(".sort").change(function () {
 			var sorting = $(".sort option:selected").val();
