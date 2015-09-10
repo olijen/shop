@@ -126,7 +126,8 @@
         width: 40%;
         margin: 10px 0;
         padding: 5px;
-        border-bottom: 1px solid #ddd;
+        border: 1px solid #ddd;
+        border-radius: 5px;
     }
 
         .comment p{
