@@ -29,11 +29,10 @@
                     <a href="main" class="main_page"></a>
                 </div>
                 <div class="search col-xs-12 col-sm-3">
-                    <form action="search/" method="get">
+                    <form action="search/" method="get" class="row">
 						<br>
-						<input type="text" name="search" placeholder="Type to search..." class="form-control col-xs-2">
-						<br>
-						<button type="submit" class="btn btn-info">Search</button>
+						<input type="text" name="search" placeholder="Type to search..." class="form-control" style="width: 66%;float: left;">
+						<button type="submit" class="btn btn-info" style="width: 33%">Search</button>
 					</form>
                 </div>
                 <div class="links col-xs-12 col-sm-3">
