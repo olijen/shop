@@ -1,6 +1,6 @@
 
 $(function(){
-	
+	// highlighing stars on hover or click
 	function rate(el, active, hover) {
 		if(active)
 			el.prop("checked", true).addClass("active");
@@ -8,18 +8,21 @@ $(function(){
 			el.prop("checked", true).addClass("hover");
 	}
 	
+	// set stars on click
 	$('.rating input[type="radio"]').bind({
 		click: (function () {
 			
 			var radio = $(this).parent().find('input[type="radio"]');
 			var current = radio.index(this);
 			
+			// reset stars (for case, when stars already set)
 			$(this).parent().find('input[type="radio"]').prop("checked", false).removeAttr("class");
 			
 			for (var i = 0; i < radio.length; i++) {
 				if (i != current)
 					rate(radio.eq(i), true);
 				else {
+					// current was reseted and we need to set it
 					rate(radio.eq(current), true);
 					break;
 				}
@@ -27,10 +30,13 @@ $(function(){
 		})
 	});
 	
+	// show stars on hover
 	$('.rating input[type="radio"]').hover(
 	function() {
 		var radio = $(this).parent().find('input[type="radio"]');
 		var current = radio.index(this);
+		
+		$(this).parent().find('input[type="radio"].active').removeAttr("class").attr("id", "active");
 		
 		for (var i = 0; i < radio.length; i++) {
 			if (i != current)
@@ -43,8 +49,10 @@ $(function(){
 	},
 	function() {
 		$(this).parent().find('input[type="radio"]').removeClass("hover");
+		$(this).parent().find('input[type="radio"]#active').removeAttr("id").addClass("active");
 	});
 	
+	// sort products by price
 	function sortBy(toCheap) {
 	
 		var mylist = $('.cards');
@@ -56,10 +64,10 @@ $(function(){
 		})
 		$.each(listitems, function(idx, itm) { mylist.append(itm); });
 		
-	}
-	
-	$(".sort").change(function () {
-		var sorting = $(".sort option:selected").val();
-		sortBy(sorting);
-	}).change();
-});
+		}
+
+		$(".sort").change(function () {
+			var sorting = $(".sort option:selected").val();
+			sortBy(sorting);
+		}).change();
+	});
