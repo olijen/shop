@@ -19,4 +19,18 @@ $id = $routes['3'];
 		<a href="#" class="buy">Buy</a>
 	</div>
 <br>
+<div class="reviews">
 <h2>Reviews:</h2>
+<div class="review">
+<?php
+//d($store['phones']);
+foreach ($reviews as $r) { ?>
+	<h3><?php echo $r['author']; ?></h3>
+	<p><?php echo $r['text']; ?></p>
+	<div class="date"><?php echo $r['date']; ?></div>
+	<div class="rate">Rated: <?php echo $r['rating']; ?>/5</div>
+<?php
+}
+?>
+</div>
+</div>

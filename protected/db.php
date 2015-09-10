@@ -30,19 +30,22 @@
 			"product_id" => 1,
 			"author" => "Demid Ganenko",
 			"date" => "10.09.2015",
-			"text" => ""
+			"text" => "Awesome! I lite it so much!1111",
+			"rating" => 5
 		),
 		2 => array(
 			"product_id" => 1,
 			"author" => "Eugene Zhylin",
 			"date" => "10.09.2015",
-			"text" => ""
+			"text" => "Agree with Demid! It's amazing",
+			"rating" => 5
 		),
 		3 => array(
 			"product_id" => 1,
 			"author" => "Bogdan Goroh",
 			"date" => "10.09.2015",
-			"text" => ""
+			"text" => "I like it too, nice product",
+			"rating" => 5
 		)
 	);
 
