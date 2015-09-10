@@ -9,11 +9,11 @@
 
 	$news = array(
 		1 => array(
-			"title" => "Welcome!"
+			"title" => "Welcome!",
 			"full" => "Welcome to our site! It's under construction now. We appologize for troubles."
 		),
 		2 => array(
-			"title" => "Welcome!"
+			"title" => "We !",
 			"full" => "Welcome to our site! It's under construction now. We appologize for troubles."
 		),
 		3 => array(
