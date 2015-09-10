@@ -21,28 +21,69 @@
     <![endif]-->
 </head>
 <body>
-    <div class="wrapper">
-        <div id="header">
-            <div class="top_line">
-                <div class="logo">
-                    <a href="main" class="main_page"></a>
+    <div class="container-fluid">
+        <header id="header" class="row">
+            <div class="col-xs-12 col-md-10 col-md-offset-1">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-6 logo">
+                                <a href="main" class="main_page"></a>
+                            </div>
+                            <div class="links col-xs-12 col-sm-6 col-md-6">
+                                Breaking News:
+                                <a href="http://live.ukrainianiphone.com/" target="_blank">Apple live presentation of iPhones 6S by UiP</a>
+                                <a href="http://ukrainianiphone.com/2015/09/apple-store-close/" target="_blank">Apple Online Store is offline</a>
+                                <a href="http://ukrainianiphone.com/2015/08/torrents-block-windows-10/" target="_blank">Torrents blocking Windows 10 users</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-				<div class="links">
-					Breaking News:
-					<a href="http://live.ukrainianiphone.com/" target="_blank">Apple live presentation of iPhones 6S by UiP</a>
-					<a href="http://ukrainianiphone.com/2015/09/apple-store-close/" target="_blank">Apple Online Store is offline</a>
-					<a href="http://ukrainianiphone.com/2015/08/torrents-block-windows-10/" target="_blank">Torrents blocking Windows 10 users</a>
-				</div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <nav class="navbar navbar-default" role="navigation">
+                            <div class="container-fluid">
+                                <div class="nav bar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                    <a class="navbar-brand visible-xs" href="#">New people</a>
+                                </div>
+                                <div class="collapse navbar-collapse center" id="bs-example-navbar-collapse-1" >
+                                    <ul class="nav navbar-nav center-ul">
+                                        <li><a href="catalog/phones">Phones</a></li>
+                                        <li><a href="catalog/tablets">Tablets</a></li>
+                                        <li><a href="catalog/laptops">Laptops</a></li>
+                                        <li><a href="catalog/accessories">Accessories</a></li>
+                                    </ul>
+                                </div><!-- /.navbar-collapse -->
+                            </div><!-- /.container-fluid -->
+                        </nav>
+                    </div>
+                </div>
             </div>
-            <nav id="nav">
-                <ul class="nav_list">
-                    <li class="list_item"><a href="catalog/phones" class="li_link">Phones</a></li>
-                    <li class="list_item"><a href="catalog/tablets" class="li_link">Tablets</a></li>
-                    <li class="list_item"><a href="catalog/laptops" class="li_link">Laptops</a></li>
-                    <li class="list_item"><a href="catalog/accessories" class="li_link">Accessories</a></li>
-                </ul>
-            </nav>
-        </div>
+        </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div class="content">
             <?php renderBlock($block, array('routes' => $routes)); ?>
         </div>
@@ -79,9 +120,11 @@
                 <div id="footerCopyright">
                     <p>&copy; New People eStore | 2015</p>
                 </div>
-
         </div>
+    
     </div>
+
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
