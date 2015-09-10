@@ -98,3 +98,46 @@
         width: 90%;
         color: #337ab7;
     }
+
+.reviews {
+    margin: 10px 0;
+    padding: 5px 15px;
+}
+    .comment {
+        width: 40%;
+        margin: 10px 0;
+        padding: 5px;
+        border-bottom: 1px solid #ddd;
+    }
+
+        .comment p{
+            margin: 0;
+            padding: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .comment h3{
+            margin: 0;
+            padding: 5px;
+        }
+
+        .comment .date {
+            width: 50%;
+            margin: 3px 0 0 0;
+            padding: 0;
+            color: #337ab7;
+        }
+
+        .comment .rate {
+            width: 50%;
+            margin: 3px 0 0 0;
+            padding: 0;
+            float: right;
+            text-align: right;
+            color: #337ab7;
+        }
+
+    .reviews h2{
+        border-bottom: 1px solid #ddd
+    }
+

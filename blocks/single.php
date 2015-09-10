@@ -25,10 +25,12 @@ $id = $routes['3'];
 <?php
 //d($store['phones']);
 foreach ($reviews as $r) { ?>
-	<h3><?php echo $r['author']; ?></h3>
-	<p><?php echo $r['text']; ?></p>
-	<div class="date"><?php echo $r['date']; ?></div>
-	<div class="rate">Rated: <?php echo $r['rating']; ?>/5</div>
+	<div class="comment">
+        <h3><?php echo $r['author']; ?></h3>
+        <p><?php echo $r['text']; ?></p>
+        <div class="rate">Rated: <?php echo $r['rating']; ?>/5</div>
+        <div class="date"><?php echo $r['date']; ?></div>
+    </div>
 <?php
 }
 ?>
