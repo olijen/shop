@@ -87,13 +87,7 @@
     .news_item {
     }
 
-    .news_list .news_item .date {
-        width: 9%;
-        float: right;
-    }
-
     .news_list .news_item p {
-        width: 90%;
         color: #337ab7;
     }
 
