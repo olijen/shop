@@ -64,10 +64,10 @@
 
                 <div id="footerMenu2">
                     <ul>
-                        <li><a href="catalog/phones">Phones</a></li>
-                        <li><a href="catalog/tablets">Tablets</a></li>
-                        <li><a href="catalog/laptops">Laptops</a></li>
-                        <li><a href="catalog/accessories">Accessories</a></li>
+                        <li>Breaking News:</li>
+                        <li><a href="http://live.ukrainianiphone.com/" target="_blank">Apple live presentation of iPhones 6S by UiP</a></li>
+                        <li><a href="http://ukrainianiphone.com/2015/09/apple-store-close/" target="_blank">Apple Online Store is offline</a></li>
+                        <li><a href="http://ukrainianiphone.com/2015/08/torrents-block-windows-10/" target="_blank">Torrents blocking Windows 10 users</a></li>
                     </ul>
                 </div>
 
