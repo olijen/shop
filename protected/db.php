@@ -25,6 +25,27 @@
 		)
 	);
 
+	$reviews = array (
+		1 => array(
+			"product_id" => 1,
+			"author" => "Demid Ganenko",
+			"date" => "10.09.2015",
+			"text" => ""
+		),
+		2 => array(
+			"product_id" => 1,
+			"author" => "Eugene Zhylin",
+			"date" => "10.09.2015",
+			"text" => ""
+		),
+		3 => array(
+			"product_id" => 1,
+			"author" => "Bogdan Goroh",
+			"date" => "10.09.2015",
+			"text" => ""
+		)
+	);
+
 
 	foreach($store as $k => $v) {
 		for($i=1;$i<=15;$i++) {

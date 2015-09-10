@@ -11,7 +11,7 @@ $cat = $routes['2'];
 foreach ($store[$cat] as $r) { ?>
 	<div class="product mini">
 		<a href="catalog/<?php echo $cat; ?>/<?php echo $r['id']; ?>"><div class="image"><img src="images/<?php echo $cat; ?>.png"></div></a>
-        <div class="raiting">
+        <div class="rating">
             <input type="radio">
             <input type="radio">
             <input type="radio">
