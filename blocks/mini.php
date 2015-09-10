@@ -14,7 +14,9 @@ Sort by price:
 <br>
 <?php
 //d($store['phones']);
+$counter = 1;
 foreach ($store[$cat] as $r) { ?>
+	<?php if($counter%3==1) { ?><div class="row"><?php } ?>
 	<div class="product mini">
 		<a href="catalog/<?php echo $cat; ?>/<?php echo $r['id']; ?>"><div class="image"><img src="images/<?php echo $cat; ?>.png"></div></a>
         <div class="rating">
@@ -28,7 +30,9 @@ foreach ($store[$cat] as $r) { ?>
 
         <a href="#" class="buy">Buy</a>
 	</div>
+	<?php if($counter%3==0) { ?></div><?php } ?>
 <?php
+	$counter++;
 }
 ?>
 </div>
