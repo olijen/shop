@@ -3,7 +3,7 @@
 // Mini-card render
 
 require_once('protected/db.php');
-$cat = $routes['2'];
+$cat = $routes[2];
 ?>
 <h2>Catalog <?php echo $cat; ?>: </h2>
 Sort by price:

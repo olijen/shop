@@ -2,8 +2,8 @@
 // Mini-card render
 
 require_once('protected/db.php');
-$cat = $routes['2'];
-$id = $routes['3'];
+$cat = $routes[2];
+$id = $routes[3];
 //d($store['phones']);
 ?>
 <h2>Details of <?php echo $cat.$id; ?>:</h2>
