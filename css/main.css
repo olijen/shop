@@ -123,14 +123,17 @@
     .comment {
         width: 40%;
         margin: 10px 0;
-        padding: 5px;
-        border-bottom: 1px solid #ddd;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #EEEEEE;
     }
 
         .comment p{
             margin: 0;
             padding: 5px;
             border: 1px solid #ddd;
+            background-color: #fff;
         }
 
         .comment h3{
