@@ -43,20 +43,21 @@ $(function(){
 				rate(radio.eq(i), false, true);
 			else {
 				rate(radio.eq(current), false, true);
+				//$(this).prop("checked", true)
 				break;
 			}
 		}
 	},
 	function() {
 		$(this).parent().find('input[type="radio"]').removeClass("hover");
-		$(this).parent().find('input[type="radio"]#active').removeAttr("id").addClass("active");
+		$(this).parent().find('input[type="radio"]#active').removeAttr("id").addClass("active").prop("checked", true);
 	});
 	
 	// sort products by price
 	function sortBy(toCheap) {
 	
 		var mylist = $('.cards');
-		var listitems = mylist.children('.product.mini').get();
+		var listitems = mylist.children('.product').get();
 		listitems.sort(function(a, b) {
 			if(toCheap == "2")
 				return $(b).find(".price").text().toUpperCase().localeCompare($(a).find(".price").text().toUpperCase());
