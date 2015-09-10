@@ -120,42 +120,47 @@
     margin: 10px 0;
     padding: 0 15px;
 }
-    .comment {
+
+    .review {
         width: 40%;
-        margin: 10px 0;
-        padding: 10px;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        background-color: #EEEEEE;
     }
 
-        .comment p{
-            margin: 0;
-            padding: 5px;
+        .comment {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
             border: 1px solid #ddd;
-            background-color: #fff;
+            border-radius: 5px;
+            background-color: #EEEEEE;
         }
 
-        .comment h3{
-            margin: 0;
-            padding: 5px;
-        }
+            .comment p{
+                margin: 0;
+                padding: 5px;
+                border: 1px solid #ddd;
+                background-color: #fff;
+            }
 
-        .comment .date {
-            width: 50%;
-            margin: 3px 0 0 0;
-            padding: 0;
-            color: #337ab7;
-        }
+            .comment h3{
+                margin: 0;
+                padding: 5px;
+            }
 
-        .comment .rate {
-            width: 50%;
-            margin: 3px 0 0 0;
-            padding: 0;
-            float: right;
-            text-align: right;
-            color: #337ab7;
-        }
+            .comment .date {
+                width: 50%;
+                margin: 3px 0 0 0;
+                padding: 0;
+                color: #337ab7;
+            }
+
+            .comment .rate {
+                width: 50%;
+                margin: 3px 0 0 0;
+                padding: 0;
+                float: right;
+                text-align: right;
+                color: #337ab7;
+            }
 
     .reviews h2{
         border-bottom: 1px solid #ddd
