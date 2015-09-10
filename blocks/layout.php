@@ -12,6 +12,7 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
+    <link href="css/search.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,18 +25,18 @@
     <div class="container">
         <header id="header">
             <div class="row">
-                <div class="logo col-xs-12 col-sm-6 col-md-6 ">
+                <div class="logo col-xs-12 col-sm-6">
                     <a href="main" class="main_page"></a>
                 </div>
-                <div class="links col-xs-12 col-sm-6 col-md-6">
+                <div class="links col-xs-12 col-sm-6">
                     News:
-                    <a href="#welcome" target="_blank">Welcome!</a>
-                    <a href="#we-are-working-on-it" target="_blank">We are working on it</a>
-                    <a href="#new-features" target="_blank">New features!</a>
+                    <a href="news/1">Welcome!</a>
+                    <a href="news/2">We are working on it</a>
+                    <a href="news/3">New features!</a>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-md-12">
+                <div class="col-xs-12">
                     <nav class="navbar navbar-default" role="navigation">
                         <div class="container-fluid">
                             <div class="nav bar-header">
@@ -65,6 +66,7 @@
             <?php renderBlock($block, array('routes' => $routes)); ?>
         </div>
 
+<<<<<<< HEAD
         <footer id="footer">
             <div class="row">
                 <div class="col-sm-3 col-md-3">
@@ -94,36 +96,38 @@
                     <div class="footer_copy ">
                         <p>&copy; New People eStore | 2015</p>
                     </div>
+=======
+        <footer id="footer" class="row">
+            <div class="col-sm-3">
+                <a href="main" class="footer_logo"></a>
+            </div>
+            <div class="col-sm-3">
+                <ul class="footer_nav hidden-xs">
+                    <li><a href="catalog/phones">Phones</a></li>
+                    <li><a href="catalog/tablets">Tablets</a></li>
+                    <li><a href="catalog/laptops">Laptops</a></li>
+                    <li><a href="catalog/accessories">Accessories</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <ul class="footer_news hidden-xs">
+                    <span>News:</span>
+                    <li><a href="news/1">Welcome!</a></li>
+                    <li><a href="news/2">We are working on it</a></li>
+                    <li><a href="news/3">New features!</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <ul class="footer_contacts">
+                    <li>Tel.: 000-000-000</li>
+                    <li>E-mail: <a>info@newpeople.com</a></li>
+                </ul>
+                <div class="footer_copy ">
+                    <p>&copy; New People eStore | 2015</p>
+>>>>>>> c48bfcfa56d7427f3b9468b1b6b0d1d3b5a7105e
                 </div>
             </div>
         </footer>
-
-
-
-<!--
-            <div id="footerLogo">
-                    <a href="main" class="foot_logo"></a>
-                </div>
-
-                <div id="footerMenu1">
-
-                </div>
-
-                <div id="footerMenu2">
-
-                </div>
-
-            <div id="footerContacts">
-                <p><br />
-                E-mail: <a>info@newpeople.com</a>
-                </p>
-            </div>
-
-                <div id="footerCopyright">
-                    <p>&copy; New People eStore | 2015</p>
-                </div>
-        </div>
-    -->
     </div>
 
 

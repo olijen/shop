@@ -1,0 +1,11 @@
+
+.search .result{
+    margin: 5px;
+    padding: 5px 15px;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+}
+
+.search .result h4{
+    color: #000000;
+}
