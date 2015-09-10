@@ -1,7 +1,7 @@
 <?php
 // news
 
-require_once('/protected/db.php');
+require_once('protected/db.php');
 ?>
 <div class="news_list">
 <h2>News:</h2>
