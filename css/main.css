@@ -3,9 +3,6 @@
     width: 100%;
 }
     .mini {
-        display: inline-block;
-        width: 300px;
-        height: 315px;
         margin: 18px;
         padding: 25px;
         text-align: center;
@@ -17,10 +14,10 @@
         border-radius: 20px;
         box-shadow: 0 0 10px 2px rgba(255, 133, 204, 0.28);
     }
-        .mini img {
-            width: 200px;
-            height: 150px;
-            margin-bottom: 20px;
+        .thumbnail img {
+            margin: 10px auto;
+            display: block;
+            max-width: 80%;
         }
         .rating {
             margin-top: 10px;
@@ -53,27 +50,12 @@
             }
 
         .price {
-            float: left;
-            font-size: 1.5em;
+            line-height: 40px;height: 40px;
         }
-        .buy{
-            display: block;
-            width: 90px;
-            height: 28px;
-            float: right;
-            line-height: 28px;
-            text-align: center;
-            text-transform: uppercase;
-            text-decoration: none;
-            border: 1px solid palevioletred;
-            background-color: #db9cac;
-            border-radius: 5px;
-            color: #3b3b4f;
-        }
-        .buy:hover {
-            text-decoration: none;
-            background-color: palevioletred;
-        }
+            .btn {
+                width: 50px !important;
+            }
+
 .information p span {
 	font-weight: bold;
 }
@@ -165,3 +147,15 @@
         border-bottom: 1px solid #ddd
     }
 
+@media screen and  (max-width: 767px) {
+    .image {
+        text-align: center;
+    }
+    .image img {
+        margin: auto;
+        max-width: 280px;
+    }
+        .caption {
+        text-align: center;
+    }
+}

@@ -17,18 +17,22 @@ Sort by price:
 $counter = 1;
 foreach ($store[$cat] as $r) { ?>
 	<?php if($counter%3==1) { ?><div class="row"><?php } ?>
-	<div class="product mini">
-		<a href="catalog/<?php echo $cat; ?>/<?php echo $r['id']; ?>"><div class="image"><img src="images/<?php echo $cat; ?>.png"></div></a>
-        <div class="rating">
-            <input type="radio">
-            <input type="radio">
-            <input type="radio">
-            <input type="radio">
-            <input type="radio">
-        </div>
-		<div class="price">Price: <?php echo $r['price']; ?>$</div>
+	<div class="product col-sm-4">
+        <div class="thumbnail">
+            <a href="catalog/<?php echo $cat; ?>/<?php echo $r['id']; ?>">
+                <div class="image">
+                    <img src="images/<?php echo $cat; ?>.png">
+                </div>
+            </a>
 
-        <a href="#" class="buy">Buy</a>
+            <div class="caption">
+                <h3>Title product</h3>
+                <div class="price">Price: <?php echo $r['price']; ?>$</div>
+                <p>
+                    <a href="#" class="btn btn-primary" role="button">BUY</a>
+                </p>
+            </div>
+        </div>
 	</div>
 	<?php if($counter%3==0) { ?></div><?php } ?>
 <?php
