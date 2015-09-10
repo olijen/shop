@@ -64,6 +64,7 @@
                     </div>
                 </div>
             </div>
+            </div>
         </header>
 
 
@@ -89,7 +90,7 @@
         <div class="footer">
 
                 <div id="footerLogo">
-                    <a href="main" class="main_page"></a>
+                    <a href="main" class="foot_logo"></a>
                 </div>
 
                 <div id="footerMenu1">
