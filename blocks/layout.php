@@ -51,7 +51,7 @@ if(isset($routes[2])) {
 					</form>
                 </div>
 
-                <div class="links hidden-xs col-sm-3 ">
+                <div class="links hidden-xs col-sm-3">
                     News:
                     <a href="news/1">Welcome!</a>
                     <a href="news/2">We are working on it</a>
