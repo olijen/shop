@@ -24,7 +24,7 @@
             display: inline-block;
             width: 260px;
         }
-            .rating input[type=radio] {
+            /*.rating input[type=radio] {
                 display: inline-block;
                 float: left;
                 height: 30px;
@@ -47,7 +47,7 @@
                 float: left;
                 background-position: 0 -31px;
                 background-size: cover;
-            }
+            }*/
 
         .price {
             line-height: 40px;height: 40px;
