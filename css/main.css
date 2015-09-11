@@ -153,3 +153,35 @@
         text-align: center;
     }
 }
+
+.product {
+
+}
+
+    .product .image {
+        float: left;
+        padding: 10px;
+        margin-right: 20px;
+        width: 50%;
+    }
+
+    .product .information {
+        float: left;
+        padding: 10px;
+        margin-right: 20px;
+        width: 45%;
+    }
+
+    .product .price{
+        float: left;
+        padding: 10px;
+        margin-right: 20px;
+        width: 45%;
+    }
+
+    .product a{
+        float: left;
+        padding: 10px;
+        margin-right: 20px;
+        width: 45%;
+    }
