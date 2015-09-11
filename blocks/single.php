@@ -6,24 +6,40 @@ $cat = $routes[2];
 $id = $routes[3];
 //d($store['phones']);
 ?>
-<h2>Details of <?php echo $cat.$id; ?>:</h2>
-	<div class="product single">
-		<div class="image"><img src="images/<?php echo $cat; ?>.png"></div>
-        <div class="clear"></div>
-        <div class="information">
-            <h2><?php echo $cat.$id; ?></h2>
-			<p><span class="features">Manufacturer:</span> SITIO Group</p>
-			<p><span class="features">Model:</span> Fantomasik</p>
+
+<section>
+    <h2>
+        Details of <?php echo $cat.$id; ?>:
+    </h2>
+    <div class="product single row">
+        <div class="col-xs-12 col-sm-8 image">
+            <img class="img" src="images/<?php echo $cat; ?>.png">
         </div>
-		<div class="price">Price: <?php echo $store[$cat][$id]['price']; ?>$</div>
-		<a href="#" class="buy">Buy</a>
-	</div>
-<br>
-<div class="reviews">
-    <h2>Reviews:</h2>
-    <div class="review">
-        <?php
-        //d($store['phones']);
+        <div class="col-xs-12 col-sm-4 information">
+            <h2><?php echo $cat.$id; ?></h2>
+            <p>
+                <span class="features">Manufacturer:</span> SITIO Group
+            </p>
+            <p>
+                <span class="features">Model:</span> Fantomasik
+            </p>
+            <p>
+                <span class="features">Other:</span> Information
+            </p>
+            <p class="price">
+                Price: <?php echo $store[$cat][$id]['price']; ?>$
+            </p>
+            <a href="#" class="btn btn-primary">Buy</a>
+        </div>
+    </div>
+</section>
+<section class="reviews row">
+    <div class="col-xs-12 col-md-6">
+
+        <h2>Reviews:</h2>
+        <div class="review">
+            <?php
+            //d($store['phones']);
             foreach ($reviews as $r) { ?>
                 <div class="comment">
                     <h3><?php echo $r['author']; ?></h3>
@@ -33,6 +49,8 @@ $id = $routes[3];
                 </div>
             <?php
             }
-        ?>
+            ?>
+        </div>
     </div>
-</div>
+
+</section>

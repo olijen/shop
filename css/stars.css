@@ -13,6 +13,7 @@
 	transition: all 0.3s;
 	margin-left: -1px;
 	margin-right: -2px;
+    cursor: pointer;
 }
 
 .star.active,

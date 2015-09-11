@@ -1,7 +1,21 @@
+.content {
+    background-color: #eee;
+}
+.content h2 {
+    margin: 0;
+    text-align: center;
+}
+/* Start style for Carousel*/
 #myCarousel img {
     display: block;
     width: 100%;
 }
+.carousel-indicators li {
+    box-shadow: 0px 0px 5px #000;
+}
+/* End style for Carousel*/
+
+/* Start style for page 'mini.php' */
     .mini {
         margin: 18px;
         padding: 25px;
@@ -25,97 +39,9 @@
             width: 260px;
         }
         .price {
-            line-height: 40px;height: 40px;
+            line-height: 40px;
+            height: 40px;
         }
-            .btn {
-                padding:  10px 40px;
-            }
-
-.information p span {
-	font-weight: bold;
-}
-
-.information p {
-	padding-bottom: 10px;
-	margin-bottom: 10px;
-	width: 100%;
-	border-bottom: 1px solid #ddd;
-}
-        
-.carousel-indicators li {
-	box-shadow: 0px 0px 5px #000;
-}
-
-.news_list {
-    padding: 5px 20px;
-    margin-bottom: 5px;
-    background-image: linear-gradient(#ffffff, #EEEEEE);
-}
-
-    .news_list h2{
-        width: 300px;
-        margin: 15px auto;
-        font-weight: bold;
-        text-align: center;
-    }
-
-    .news_item {
-    }
-
-    .news_list .news_item p {
-        color: #337ab7;
-    }
-
-.reviews {
-    margin: 10px 0;
-    padding: 0 15px;
-}
-
-    .review {
-        width: 40%;
-    }
-
-        .comment {
-            width: 100%;
-            margin: 10px 0;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            background-color: #EEEEEE;
-        }
-
-            .comment p{
-                margin: 0;
-                padding: 5px;
-                border: 1px solid #ddd;
-                background-color: #fff;
-            }
-
-            .comment h3{
-                margin: 0;
-                padding: 5px;
-            }
-
-            .comment .date {
-                width: 50%;
-                margin: 3px 0 0 0;
-                padding: 0;
-                color: #337ab7;
-            }
-
-            .comment .rate {
-                width: 50%;
-                margin: 3px 0 0 0;
-                padding: 0;
-                float: right;
-                text-align: right;
-                color: #337ab7;
-            }
-
-    .reviews h2{
-        border-bottom: 1px solid #ddd
-    }
-
 @media screen and  (max-width: 767px) {
     .image {
         text-align: center;
@@ -124,39 +50,104 @@
         margin: auto;
         max-width: 280px;
     }
-        .caption {
+    .caption {
         text-align: center;
     }
 }
+/* End style for page 'mini.php' */
 
-.single {
-
+/* Start style for news at main page*/
+.news_list {
+    padding: 5px 20px;
+    margin-bottom: 5px;
+    background-image: linear-gradient(#ffffff, #EEEEEE);
 }
-
-    .single .image {
-        float: left;
-        padding: 10px;
-        margin-right: 20px;
-        width: 50%;
+    .news_list h2{
+        width: 300px;
+        margin: 15px auto;
+        font-weight: bold;
+        text-align: center;
     }
-
-    .single .information {
-        float: left;
-        padding: 10px;
-        margin-right: 20px;
-        width: 45%;
+    .news_item {
     }
-
-    .single .price{
-        float: left;
-        padding: 10px;
-        margin-right: 20px;
-        width: 45%;
+    .news_list .news_item p {
+        color: #337ab7;
     }
+/* End style for news at main page*/
 
-    .single a{
-        float: left;
-        padding: 10px;
-        margin-right: 20px;
-        width: 45%;
+/* Start style for page 'single.php' */
+.single {
+}
+    .image .img {
+        display: block;
+        margin: auto;
+        max-width: 500px;
+        padding: 20px;
     }
+    .information {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+        .information h2 {
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .information p {
+            width: auto;
+            border-bottom: 1px solid #ccc;
+        }
+        p.price {
+            border-bottom: transparent;
+        }
+        .features {
+            font-weight: bold;
+        }
+@media screen and  (max-width: 767px) {
+    .image img {
+        margin: auto;
+        max-width: 280px;
+    }
+}
+/* End style for page 'single.php' */
+
+/* Start style for reviews */
+.reviews {
+    margin: 10px 0;
+    padding: 0 15px;
+}
+    .review {
+        width: auto;
+    }
+        .comment {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #EEEEEE;
+        }
+            .comment p{
+                margin: 0;
+                padding: 5px;
+                border: 1px solid #ddd;
+                background-color: #fff;
+            }
+            .comment h3{
+                margin: 0;
+                padding: 5px;
+            }
+            .rate {
+                width: 50%;
+                margin: 3px 0 0 0;
+                padding: 0;
+                float: right;
+                text-align: right;
+                color: #337ab7;
+            }
+            .date {
+                width: 50%;
+                margin: 3px 0 0 0;
+                padding: 0;
+                color: #337ab7;
+            }
+/* End style for reviews */
