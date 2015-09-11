@@ -29,11 +29,6 @@ foreach ($store[$cat] as $r) { ?>
             <div class="caption">
                 <h3>Title product</h3>
                 <div class="rating">
-					<input type="radio">
-					<input type="radio">
-					<input type="radio">
-					<input type="radio">
-					<input type="radio">
 					<div class="star"></div>
 					<div class="star"></div>
 					<div class="star"></div>
