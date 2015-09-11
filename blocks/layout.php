@@ -1,4 +1,15 @@
-<!DOCTYPE html>
+<?php
+if(isset($routes[2])) {
+	$s = strtolower($routes[2]);
+
+	$get = strpos($s, "?search");
+	if($get!==false) {
+		$s = str_replace('?search=', '', $s);
+		header('Location: /search/'.$s);
+		die();
+	}
+}
+?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -13,6 +24,7 @@
     <link href="css/header.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
     <link href="css/search.css" rel="stylesheet">
+    <link href="css/stars.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

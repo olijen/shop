@@ -34,6 +34,11 @@ foreach ($store[$cat] as $r) { ?>
 					<input type="radio">
 					<input type="radio">
 					<input type="radio">
+					<div class="star"></div>
+					<div class="star"></div>
+					<div class="star"></div>
+					<div class="star"></div>
+					<div class="star"></div>
 				</div>
                 <div class="price">Price: <?php echo $r['price']; ?>$</div>
                 <p>

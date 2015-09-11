@@ -4,6 +4,16 @@
 require_once("protected/db.php");
 $s = strtolower($routes[2]);
 
+//echo $_GET['search'];
+//echo $s;
+/*
+$get = strpos($s, "?search");
+if($get!==false) {
+	$s = str_replace('?search=', '', $s);
+	header('Location: search/'.$s);
+	die();
+}*/
+
 //news
 
 $founded = false;
