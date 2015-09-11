@@ -16,7 +16,7 @@ $(function(){
 			var current = radio.index(this);
 			
 			// reset stars (for case, when stars already set)
-			$(this).parent().find('.star').removeClass("active");
+			$(this).parent().find('.star').removeClass("active").removeAttr("id");
 			
 			for (var i = 0; i < radio.length; i++) {
 				if (i != current)

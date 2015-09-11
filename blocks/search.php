@@ -4,6 +4,8 @@
 require_once("protected/db.php");
 $s = strtolower($routes[2]);
 
+$s = str_replace('+', ' ', $s);
+
 //echo $_GET['search'];
 //echo $s;
 /*
@@ -33,10 +35,11 @@ foreach($news as $r) {
 	if($founded==true) {
 		$counter++;
 		echo '<div class="result">';
-		echo '<a href="news/'.$r['id'].'/">';
 		echo '<h4>'.$r['title'].'</h4>';
 		echo '<p>'.$r['full'].'</p>';
 		echo '<div class="date">'.$r['date'].'</div>';
+		echo '<a href="news/'.$r['id'].'/">';
+		echo 'Read more';
 		echo '</a>';
 		echo '</div>';
 		

@@ -6,18 +6,16 @@ require_once('protected/db.php');
 $cat = $routes[2];
 ?>
 <h2>Catalog <?php echo $cat; ?>: </h2>
-Sort by price:
-<select class="sort">
+<label for="sel1">Sort by price:</label>
+<select class="form-control sort" id="sel1" style="width: 300px">
 	<option value="1">Cheap to expensive</option>
 	<option value="2">Expensive to cheap</option>
 </select>
 <br>
 	<div class="row">
 <?php
-//d($store['phones']);
 $counter = 1;
 foreach ($store[$cat] as $r) { ?>
-	<?php /*if($counter%3==1) { ?><div class="row"><?php } */?>
 	<div class="product col-sm-4">
         <div class="thumbnail">
             <a href="catalog/<?php echo $cat; ?>/<?php echo $r['id']; ?>">
@@ -42,7 +40,6 @@ foreach ($store[$cat] as $r) { ?>
             </div>
         </div>
 	</div>
-	<?php /*if($counter%3==0) { ?></div><?php } */?>
 <?php
 	$counter++;
 }
