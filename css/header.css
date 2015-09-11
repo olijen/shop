@@ -3,6 +3,7 @@
     background: #fefcea; /* Для старых браузров */
     background: linear-gradient(to top, #eee, #fff);
 }
+
     .logo {
         margin: 15px ;
         min-height: 80px;
