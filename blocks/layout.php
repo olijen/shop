@@ -37,17 +37,22 @@ if(isset($routes[2])) {
     <div class="container">
         <header id="header">
             <div class="row">
-                <div class="logo col-xs-12 col-sm-6">
+
+                <div class="logo col-xs-12 col-sm-3">
                     <a href="main" class="main_page"></a>
                 </div>
-                <div class="search col-xs-12 col-sm-3">
-                    <form action="search/" method="get" class="row">
-						<br>
-						<input type="text" name="search" placeholder="Type to search..." class="form-control" style="width: 60%;float: left;margin-left: 20px;">
-						<button type="submit" class="btn btn-info" style="width: 40%">Search</button>
+
+                <div class="col-xs-12 col-sm-2">
+                </div>
+
+                <div class=" col-xs-12 col-sm-4 hidden-xs hidden-sm ">
+                    <form action="search/" method="get" class="search">
+						<input type="text" name="search" placeholder="Type to search..." class="form-control">
+						<button type="submit" class="btn btn-info">Search</button>
 					</form>
                 </div>
-                <div class="links col-xs-12 col-sm-3">
+
+                <div class="links hidden-xs col-sm-2 ">
                     News:
                     <a href="news/1">Welcome!</a>
                     <a href="news/2">We are working on it</a>
@@ -109,7 +114,7 @@ if(isset($routes[2])) {
 				<div class="col-sm-3">
 					<ul class="footer_contacts">
 						<li>Tel.: 000-000-000</li>
-						<li>E-mail: <a>info@newpeople.com</a></li>
+						<li>E-mail: <a  href="mailto:#">info@newpeople.com</a></li>
 					</ul>
 					<div class="footer_copy ">
 						<p>&copy; New People eStore | 2015</p>
