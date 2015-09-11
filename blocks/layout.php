@@ -45,7 +45,7 @@ if(isset($routes[2])) {
                 <div class="col-xs-12 col-sm-2">
                 </div>
 
-                <div class=" col-xs-12 col-sm-4 hidden-xs hidden-sm ">
+                <div class="col-xs-12 col-sm-4 hidden-xs hidden-sm ">
                     <form action="search/" method="get" class="search">
 						<input type="text" name="search" placeholder="Type to search..." class="form-control">
 						<button type="submit" class="btn btn-info">Search</button>
