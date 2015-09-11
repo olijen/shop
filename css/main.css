@@ -154,32 +154,32 @@
     }
 }
 
-.product {
+.single {
 
 }
 
-    .product .image {
+    .single .image {
         float: left;
         padding: 10px;
         margin-right: 20px;
         width: 50%;
     }
 
-    .product .information {
+    .single .information {
         float: left;
         padding: 10px;
         margin-right: 20px;
         width: 45%;
     }
 
-    .product .price{
+    .single .price{
         float: left;
         padding: 10px;
         margin-right: 20px;
         width: 45%;
     }
 
-    .product a{
+    .single a{
         float: left;
         padding: 10px;
         margin-right: 20px;
