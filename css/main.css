@@ -63,7 +63,6 @@
 /* Start style for news at main page*/
 .news_list {
     padding: 5px 20px;
-    margin-bottom: 5px;
     background-image: linear-gradient(#ffffff, #EEEEEE);
 }
     .news_list h2{
@@ -95,8 +94,10 @@
         .information h2 {
             text-align: center;
             text-transform: uppercase;
+            margin-bottom: 20px;
         }
         .information p {
+            padding: 10px;
             width: auto;
             border-bottom: 1px solid #ccc;
         }

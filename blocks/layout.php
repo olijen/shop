@@ -85,11 +85,9 @@ if(isset($routes[2])) {
                 </div>
             </div>
         </header>
-
         <div class="content">
             <?php renderBlock($block, array('routes' => $routes)); ?>
         </div>
- 
         <footer id="footer">
         	<div class="row">
 				<div class="col-sm-3">
