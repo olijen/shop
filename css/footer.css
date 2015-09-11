@@ -1,8 +1,6 @@
 #footer {
     margin: 0;
     padding: 10px 0;
-    background: #fefcea; /* Для старых браузров */
-    background: linear-gradient(to bottom, #eee, #fff);
 }
     #footer ul {
         list-style: none;
