@@ -35,9 +35,8 @@ if(isset($routes[2])) {
 </head>
 <body>
     <div class="container">
-        <header id="header ">
-            <div class="">
-
+        <header id="header">
+            <div class="row">
                 <div class="logo col-xs-12 col-sm-3">
                     <a href="main" class="main_page"></a>
                 </div>
@@ -59,7 +58,7 @@ if(isset($routes[2])) {
                     <a href="news/3">New features!</a>
                 </div>
             </div>
-            <div class="">
+            <div class="row">
                 <div class="col-xs-12">
                     <nav class="navbar navbar-default" role="navigation">
                         <div class="container-fluid">
