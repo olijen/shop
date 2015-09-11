@@ -1,6 +1,11 @@
 .content {
     background-color: #eee;
 }
+.content h2 {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #eee;
+}
 
 /* Start style for Carousel*/
 #myCarousel img {
