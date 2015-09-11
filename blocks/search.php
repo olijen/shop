@@ -33,10 +33,11 @@ foreach($news as $r) {
 	if($founded==true) {
 		$counter++;
 		echo '<div class="result">';
-		echo '<a href="news/'.$r['id'].'/">';
 		echo '<h4>'.$r['title'].'</h4>';
 		echo '<p>'.$r['full'].'</p>';
 		echo '<div class="date">'.$r['date'].'</div>';
+		echo '<a href="news/'.$r['id'].'/">';
+		echo 'Read more';
 		echo '</a>';
 		echo '</div>';
 		
