@@ -24,31 +24,6 @@
             display: inline-block;
             width: 260px;
         }
-            /*.rating input[type=radio] {
-                display: inline-block;
-                float: left;
-                height: 30px;
-                width: 30px;
-                margin: 0 2px 20px 0;
-                cursor: pointer;
-            }
-            .rating input[type=radio]:before {
-                content: "";
-                float: left;
-                height: 30px;
-                width: 30px;
-                background: #fff url("../images/star.png") no-repeat 0 0;
-                background-size: cover;
-				transition: all 0.3s;
-            }
-            .rating input[type=radio].active:before,
-			.rating input[type=radio].hover:before {
-                content: "";
-                float: left;
-                background-position: 0 -31px;
-                background-size: cover;
-            }*/
-
         .price {
             line-height: 40px;height: 40px;
         }
