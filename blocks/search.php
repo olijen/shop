@@ -4,6 +4,8 @@
 require_once("protected/db.php");
 $s = strtolower($routes[2]);
 
+$s = str_replace('+', ' ', $s);
+
 //echo $_GET['search'];
 //echo $s;
 /*
