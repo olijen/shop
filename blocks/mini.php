@@ -8,12 +8,14 @@ $cat = $routes[2];
 <h2>Catalog <?php echo $cat; ?>: </h2>
 <label for="sel1">Sort by price:</label>
 <select class="form-control sort" id="sel1" style="width: 300px">
+	<option value="0"></option>
 	<option value="1">Cheap to expensive</option>
 	<option value="2">Expensive to cheap</option>
 </select>
 <br>
 	<div class="row">
 <?php
+/*
 $counter = 1;
 foreach ($store[$cat] as $r) { ?>
 	<div class="product col-sm-4">
@@ -42,7 +44,7 @@ foreach ($store[$cat] as $r) { ?>
 	</div>
 <?php
 	$counter++;
-}
+}*/
 ?>
 	</div>
 </div>

@@ -9,31 +9,30 @@ $(function(){
 	}
 	
 	// set stars on click
-	$('.rating .star').bind({
-		click: (function () {
+	$(document).on("click", ".rating .star", function() {
 			
-			var radio = $(this).parent().find('.star');
-			var current = radio.index(this);
-			
-			// reset stars (for case, when stars already set)
-			$(this).parent().find('.star').removeClass("active").removeAttr("id");
-			
-			for (var i = 0; i < radio.length; i++) {
-				if (i != current)
-					rate(radio.eq(i), true);
-				else {
-					// current was reseted and we need to set it
-					rate(radio.eq(current), true);
-					break;
-				}
+		var radio = $(this).parent().find('.star');
+		var current = radio.index(this);
+
+		// reset stars (for case, when stars already set)
+		$(this).parent().find('.star').removeClass("active").removeAttr("id");
+
+		for (var i = 0; i < radio.length; i++) {
+			if (i != current)
+				rate(radio.eq(i), true);
+			else {
+				// current was reseted and we need to set it
+				rate(radio.eq(current), true);
+				break;
 			}
-		})
+		}
+		
 	});
 	
 	
 	// show stars on hover
-	$('.rating .star').hover(
-	function() {
+	//$('.rating .star').hover(
+	$(document).on("mouseenter", ".rating .star", function() {
 		var radio = $(this).parent().find('.star');
 		var current = radio.index(this);
 		
@@ -48,11 +47,13 @@ $(function(){
 				break;
 			}
 		}
-	},
-	function() {
+	//},
+	});
+	$(document).on("mouseleave", ".rating .star", function() {
 		$(this).parent().find('.star.active').removeClass("active").attr("id", "active");
 		$(this).parent().find('.star').removeClass("hover");
 		$(this).parent().find('.star#active').removeAttr("id").addClass("active");
+	//});
 	});
 	
 	// sort products by price
